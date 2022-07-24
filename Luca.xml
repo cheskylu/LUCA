@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Luca.xsl"?>
+<!DOCTYPE Lucabread[
+  <!ELEMENT Lucabread (record*)>
+  <!ELEMENT record (SourdoughWhite, SourdoughRye, SourdoughSpelt, SourdoughSeeded)>
+  <!ELEMENT SourdoughWhite (#PCDATA)>
+  <!ELEMENT SourdoughRye (#PCDATA)>
+  <!ELEMENT SourdoughSpelt (#PCDATA)>
+  <!ELEMENT SourdoughSeeded (#PCDATA)>
+]>
+
+<!-- The root element should be the same as file name -->
+<Lucabread>
+  <record>
+    <SourdoughWhite>$7.00</SourdoughWhite>
+    <SourdoughRye>$8.00</SourdoughRye>
+    <SourdoughSpelt>$9.00</SourdoughSpelt>
+    <SourdoughSeeded>$9.50</SourdoughSeeded>
+  </record>
+  <record>
+    <SourdoughWhite>Our standard sourdough</SourdoughWhite>
+    <SourdoughRye>Sourdough created with 50% rye flour</SourdoughRye>
+    <SourdoughSpelt>Sourdough created with 100% spelt flour. </SourdoughSpelt>
+    <SourdoughSeeded>Sourdough including a mixture of yummy seeds. </SourdoughSeeded>
+  </record>
+
+</Lucabread>
